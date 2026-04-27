@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FTH TECH GLOBAL SERVICES LIMITED</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #1976d2;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #2196f3;
+    color: white;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>FTH TECH GLOBAL SERVICES LIMITED</h1>
+    <p>Engineering • Fabrication • Welding Solutions</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Professional Welding & Fabrication Services</h2>
+    <p>We deliver strong, reliable and high-quality engineering solutions.</p>
+</section>
+
+<section class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Argon Welding</div>
+        <div class="card">Metal Fabrication</div>
+        <div class="card">Pipe Fitting</div>
+        <div class="card">Panel Building</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Contact Us</h2>
+    <p>📞 07065447615 / 08157379333</p>
+    <p>📍 110 Odan Agbara Market Road, Ogun State, Nigeria</p>
+</section>
+
+<footer>
+    <p>© 2026 FTH TECH GLOBAL SERVICES LIMITED</p>
+</footer>
+
+</body>
+</html><title></title><option value=""></option><option value=""></option><option value=""></option><option value=""></option><label for=""></label>
