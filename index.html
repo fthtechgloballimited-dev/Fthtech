@@ -9,58 +9,70 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
 }
 
 header {
-    background: #0d47a1;
+    background: linear-gradient(to right, #003366, #00aaff);
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+.btn {
+    background: white;
+    color: #003366;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 nav {
-    background: #1976d2;
-    padding: 10px;
+    background: #002244;
     text-align: center;
+    padding: 10px;
 }
 
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    padding: 60px;
-    text-align: center;
-    background: #2196f3;
-    color: white;
 }
 
 .section {
-    padding: 40px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 .services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
 .card {
-    background: white;
+    background: #f4f4f4;
     padding: 20px;
+    width: 250px;
     border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 footer {
-    background: #0d47a1;
+    background: #002244;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 </style>
 </head>
@@ -70,33 +82,57 @@ footer {
 <header>
     <h1>FTH TECH GLOBAL SERVICES LIMITED</h1>
     <p>Engineering • Fabrication • Welding Solutions</p>
+    <a href="#contact" class="btn">Get a Quote</a>
 </header>
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<section class="hero">
-    <h2>Professional Welding & Fabrication Services</h2>
-    <p>We deliver strong, reliable and high-quality engineering solutions.</p>
-</section>
-
-<section class="section">
+<section class="section" id="services">
     <h2>Our Services</h2>
     <div class="services">
-        <div class="card">Argon Welding</div>
-        <div class="card">Metal Fabrication</div>
-        <div class="card">Pipe Fitting</div>
-        <div class="card">Panel Building</div>
+        <div class="card">
+            <h3>Argon Welding</h3>
+            <p>High-quality TIG welding for stainless and aluminum.</p>
+        </div>
+
+        <div class="card">
+            <h3>Metal Fabrication</h3>
+            <p>Custom fabrication for industrial and domestic use.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pipe Fitting</h3>
+            <p>Professional pipe installation and maintenance.</p>
+        </div>
+
+        <div class="card">
+            <h3>Panel Building</h3>
+            <p>Electrical panel design and installation.</p>
+        </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        FTH TECH GLOBAL SERVICES LIMITED is a professional engineering company 
+        based in Agbara, Ogun State, Nigeria. We specialize in welding, fabrication, 
+        and industrial solutions with a focus on quality and reliability.
+    </p>
+</section>
+
+<section class="section" id="contact">
     <h2>Contact Us</h2>
-    <p>📞 07065447615 / 08157379333</p>
-    <p>📍 110 Odan Agbara Market Road, Ogun State, Nigeria</p>
+    <p>📞 07065447615 | 08157379333</p>
+    <p>📍 110 Odan Agbara Market Road, Ogun State</p>
+    <p>
+        <a href="https://wa.me/2347065447615" class="btn">Chat on WhatsApp</a>
+    </p>
 </section>
 
 <footer>
@@ -104,4 +140,4 @@ footer {
 </footer>
 
 </body>
-</html><title></title><option value=""></option><option value=""></option><option value=""></option><option value=""></option><label for=""></label>
+</html>
